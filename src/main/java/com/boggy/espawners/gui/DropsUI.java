@@ -15,6 +15,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class DropsUI {
+    @SuppressWarnings("deprecation")
     public DropsUI(final Player player, final CreatureSpawner spawner, final ISpawners plugin, final int page) {
         if (!plugin.getSpawners().contains(spawner)) {
             player.closeInventory();
